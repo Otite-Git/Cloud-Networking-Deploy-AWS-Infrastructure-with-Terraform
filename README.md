@@ -1,6 +1,6 @@
 # 💻Deploying-AWS-Infrastructure-with-Terraform☁️ 🟣
 
-Hi! Welcome to my repository containing my AWS Project I've have undertaken as a Cloud enthusiast⚡️:
+Hi! Welcome to my repository containing my AWS Project I've have undertaken as an AWS Cloud expert and enthusiast⚡️:
 
 This project demonstrates how to deploy AWS Infrastructure using Terraform. Within the repository, you will see this README file for the project, high level architecture, scripting files and information on other key assets that I have used to develop this project as part of my portfolio.
 
