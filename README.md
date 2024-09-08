@@ -171,3 +171,39 @@ Atfer gaining confimration from your terminal that your resoutces have been set 
 ```
 
 This command helps to clean up all deployed resources to avoid unnecessary costs.
+
+## **How to Use**
+
+1. Clone this repository to your local machine.
+2. Follow the AWS documentation to create the required resources (S3 Bucket IAM Management) as outlined in the architecture overview
+3. Use the provided scripts to set up the reosurce and applications
+4. Configure the reosurces assets as per the architecture
+5. Access the Website website through the endpoint URL for your bucket
+
+## **Additional Resources**
+
+- **AWS Documentation:** Refer to the [AWS documentation](https://aws.amazon.com/documentation/) for detailed guides on setting up S3 Bucket, IAM roles and other services such as VPC, EC2, Auto Scaling, and Load Balancers.
+- **GitHub Repository Files:** Refer to [Otite-Git/Deploying-AWS-Infrastructure-with-Terraform](https://github.com/Otite-Git/Deploying-AWS-Infrastructure-with-Terraform/tree/main) to access the repository files for scripts, architectural diagrams, and configuration files necessary for deploying the website.
+
+## **What problems did I solve by completing this project?**
+
+1. **Simplicity:** I was able to effectively to simplift the creation of the hosting of the website through automating the deployment process using Terraform by reducing manual effort and ensures consistency across environments as the deployment of infrastructure and website hosting can be error-prone and time-consuming
+   
+2. **Infrastructure Management:** Managing infrastructure changes manually can lead to configuration drift and inconsistencies. Using Terraform allows for version-controlled infrastructure management and easy updates
+
+
+## **What issues did I face while working on the project and how did I resolve that issue?**
+  
+- **Terraform Configuration Errors:** I had faced the issue of command errors and incorrect configuration in Terraform files. I was able to resolve both issues by using Terraform validate and terraform plan commands to check for errors and view changes before applying them
+
+- **Terraform file setup Error:** Initially when starting the project, I had faced the challenge of my created main.tf file not being picked up or when entering the terraform apply command. I would get an error message stating the file could not be found in my directory despite it being there. I had resolved this issue by creating a new copy of the file and saving it in VS Code ensuring the Terraform logo appeared after it was correctly formatted. I then uploaded it into the directory folder and ran the Terrafrom apply command again. After doing this it had successfully worked
+ 
+
+ ## **What overall lessons did I learn?**
+ 
+- **Terraform Basics:** Infrastructure as Code (IaC): Understanding how to define and manage infrastructure using code. Terraform Configuration: Learning the commands and structure of Terraform configuration files (e.g., .tf files)
+
+- **Terraform file configuration:** Infrastructure as Code (IaC): I learned the difference between resource and modules in Terraform and how providers act as the interface between Terraform and various cloud platforms and services. furthermore, I also learned that in Terraform, the state is like a snapshot that records the current state of your infrastructure managed by Terraform. This state file is essential because it allows Terraform to understand what your infrastructure looks like at any given time and helps it determine what changes need to be applied when you run your config.
+
+- **Developing high level architectural diagrams:** I learned how to develop a high level architectural diagram using draw.io to help visuallly articulate the infrastructure setup and the architecural solutions required as part of this project.
+
