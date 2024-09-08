@@ -1,4 +1,4 @@
-# 💻Deploying-AWS-Infrastructure-with-Terraform☁️🟣
+# 💻Deploying-AWS-Infrastructure-with-Terraform☁️ 🟣
 
 Hi! Welcome to my repository containing my AWS Project I've have undertaken as a Cloud enthusiast⚡️:
 
@@ -191,6 +191,9 @@ This command helps to clean up all deployed resources to avoid unnecessary costs
    
 2. **Infrastructure Management:** Managing infrastructure changes manually can lead to configuration drift and inconsistencies. Using Terraform allows for version-controlled infrastructure management and easy updates
 
+3. **Resource Dependencies Management:** Terraform handles dependencies between resources, which means you I didn't have to manually manage the order of resource creation. This is particularly useful in complex infrastructures where resource interdependencies can be intricate.
+
+4. **Consistency Across Environments:** The use of Terraform modules helps to ensure consistent setup of resources across different environments (e.g., staging, production). This helps in maintaining uniformity and reducing configuration drift.
 
 ## **What issues did I face while working on the project and how did I resolve that issue?**
   
@@ -206,4 +209,8 @@ This command helps to clean up all deployed resources to avoid unnecessary costs
 - **Terraform file configuration:** Infrastructure as Code (IaC): I learned the difference between resource and modules in Terraform and how providers act as the interface between Terraform and various cloud platforms and services. furthermore, I also learned that in Terraform, the state is like a snapshot that records the current state of your infrastructure managed by Terraform. This state file is essential because it allows Terraform to understand what your infrastructure looks like at any given time and helps it determine what changes need to be applied when you run your config.
 
 - **Developing high level architectural diagrams:** I learned how to develop a high level architectural diagram using draw.io to help visuallly articulate the infrastructure setup and the architecural solutions required as part of this project.
+
+- **Scalability and Maintenance:** With Terraform modules and configuration, I addressed scalability issues by allowing easy updates and additions to your infrastructure. This makes it simpler to maintain and scale resources as needed.
+
+
 
