@@ -1,4 +1,4 @@
-# 💻 Cloud-Networking-Deploying-AWS-Infrastructure-with-Terraform☁️ 🟣
+# 💻Cloud-Networking-Deploy-AWS-Infrastructure-with-Terraform☁️ 
 
 Hi! Welcome to my repository containing my AWS Project I've have undertaken as an AWS Cloud expert and enthusiast⚡️:
 
